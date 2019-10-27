@@ -275,7 +275,7 @@
                               </fieldset>
                                <textarea name="bio" id="bio" placeholder="Tell us a bit about yourself and why you would like to participate *" cols="30" rows="10" required>
                                </textarea>
-                                <div class="g-recaptcha" data-sitekey="6Lel7roUAAAAAKH8ywQe0NBTQDzyFo9ugaqQ4Ycf"></div>
+                                <div class="g-recaptcha" data-sitekey=""></div>
                                 <button name="submit" type="submit" id="form-submit" class="btn">Register</button>
                             </form>
                           </div>
