@@ -12,14 +12,19 @@
             $User_facebook = $_POST['f_url'];
             $User_hear = $_POST['hear'];
             $User_bio = $_POST['bio'];
-            $ethereum_website = 'https://ethereum.network';
+            $twitter = 'https://twitter.com/ENetworkng';
+            $blog = 'https://medium.com/@ethnetworkng';
             $ethereum = 'ethereum.network';
             
-            $email_send = 'clement@crevatal.com';
-            $email_from = 'no_reply@cryptojunk.info';
-            $email_subject_registrar = "Thank $User_name you for registering with $ethereum!";
-            $email_body_registrar = "We are happy to have you on board.\n".
-                                    "Kindly note that you will be notified on your entrance to the pool.\n".
+            $reply_email = 'admin@ethereumdevdrive.com';
+            $email_from = 'no_reply@ethereumdevdrive.com';
+            $email_subject_registrar = "Thank you $User_name for registering with $ethereum!";
+            $email_body_registrar = "We are happy to have you on board $User_name! .\n".
+                                    "Kindly note that you will be notified on your entrance to the pool. You can also share this program with friends and colleagues so they too can get a chance to be a part of this!\n\n".
+                                    "Follow us for more information and updates on:\n".
+                                    "Twitter: $twitter\n".
+                                    "Medium: $blog\n\n".
+                                    
                                     "Thank You!";
             
             $email_subject = "Ethereum network just got a new registration from $User_name!";
@@ -42,7 +47,7 @@
             
             $to_registrar_email = "$User_email";
             $headers = "From: $email_from \r\n";
-            $headers .= "Reply-To: \r\n";            
+            $headers .= "Reply-To: $reply_email \r\n";            
             
             $secretKey = "";
             $responseKey = $_POST['g-recaptcha-response'];

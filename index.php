@@ -32,8 +32,8 @@
                               <img src="img/hd.jpg" alt="mini_pic">
                               </div>
                               <div class="host-logo">
-                              <a href="https://ethereum.network" target="_blank"><img src="img/bloc.png" alt="mini_pic"></a>
-                              <a href="https://bloceducare.com/" target="_blank"><img src="img/eth.png" alt="mini_pic"></a>
+                              <a href="https://bloceducare.com" target="_blank"><img src="img/bloc.png" alt="mini_pic"></a>
+                              <a href="https://ethereum.network/" target="_blank"><img src="img/eth.png" alt="mini_pic"></a>
                             </div>
                           </div>
                         </div>
@@ -253,7 +253,7 @@
                                 <input name="email" type="email" class="form-control" id="email" placeholder="Your e-mail address *" required>
                               </fieldset>
                               <fieldset>
-                                <input name="phone" type="phone" class="form-control" id="phone" placeholder="+234 **** *" required>
+                                <input name="phone" type="phone" class="form-control" id="phone" placeholder="+234 **** ****" required>
                               </fieldset>
                               <fieldset>
                                 <input name="state" type="text" class="form-control" id="state" placeholder="Your State *" required>
@@ -273,6 +273,7 @@
                               <p style="color: #fff;">How did you hear about us? *</p>
                               <fieldset><input name="hear" type="text" class="form-control" id="bio" placeholder="e.g twitter *" required>
                               </fieldset>
+                              <p style="color: #fff;">Tell us a bit about yourself and why you'd like to participate *</p>
                                <textarea name="bio" id="bio" placeholder="Tell us a bit about yourself and why you would like to participate *" cols="30" rows="10" required>
                                </textarea>
                                 <div class="g-recaptcha" data-sitekey=""></div>

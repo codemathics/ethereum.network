@@ -5,7 +5,11 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title>Nigeria Ethereum Network</title>
         <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="Nigeria Ethereum Dev Drive was initiated as a pilot test to target and attract 500 intermediate developers in Africa to improve on their knowledge of the ethereum smart contracts and code base, and see them develop very simple dApps that can be used in their immediate environment.">
+    <meta name="keywords" content="design, ethereum, bitcoin, cryptocurrency, digital, money, fintech, bloceducare, crevatal, clemzcorp, media redefined,investor, blockchain, hydro, hydrogen, network, UI/UX, developer, program, programmers, technology, tech, python, c++, c#">
+
+    <!-- Favicon -->
+    <link rel="icon" href="img/favicon.jpg" type="image/x-icon" />
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
         <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -40,6 +44,9 @@
             </li>
             <li class="nav__item">
               <a href="#4" class="nav__link c-green"><i class="fas fa-user-plus"></i></a>
+            </li>
+            <li class="nav__item" style="border-top: 2px solid #FFFF66;">
+              <a href="https://twitter.com/ENetworkng" target="_blank" class="nav__link c-green"><i class="fab fa-twitter"></i></a>
             </li>
             <li class="nav__item">
               <a href="https://medium.com/@ethnetworkng" target="_blank" class="nav__link c-green"><i class="fab fa-medium"></i></a>
