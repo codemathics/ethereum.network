@@ -12,19 +12,15 @@
             $User_facebook = $_POST['f_url'];
             $User_hear = $_POST['hear'];
             $User_bio = $_POST['bio'];
-            $twitter = 'https://twitter.com/ENetworkng';
-            $blog = 'https://medium.com/@ethnetworkng';
+            $ethereum_website = 'https://ethereum.network';
             $ethereum = 'ethereum.network';
             
-            $reply_email = 'admin@ethereumdevdrive.com';
-            $email_from = 'no_reply@ethereumdevdrive.com';
-            $email_subject_registrar = "Thank you $User_name for registering with $ethereum!";
-            $email_body_registrar = "We are happy to have you on board $User_name! .\n".
-                                    "Kindly note that you will be notified on your entrance to the pool. You can also share this program with friends and colleagues so they too can get a chance to be a part of this!\n\n".
-                                    "Follow us for more information and updates on:\n".
-                                    "Twitter: $twitter\n".
-                                    "Medium: $blog\n\n".
-                                    
+            
+            $reply_email = 'info@ethereumdevdrive.com';
+            $email_from = 'ethereumdevdrive@crevatal.com';
+            $email_subject_registrar = "Thank $User_name you for registering with $ethereum!";
+            $email_body_registrar = "We are happy to have you on board.\n".
+                                    "Kindly note that you will be notified on your entrance to the pool.\n".
                                     "Thank You!";
             
             $email_subject = "Ethereum network just got a new registration from $User_name!";
