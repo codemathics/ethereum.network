@@ -17,7 +17,7 @@
             $ethereum = 'ethereum.network';
             
             $reply_email = 'info@ethereumdevdrive.com';
-            $email_from = 'ethereumdevdrive@crevatal.com';
+            $email_from = 'clemzyport@gmail.com';
             $email_subject_registrar = "Thank you $User_name for registering with $ethereum!";
             $email_body_registrar = "We are happy to have you on board $User_name! .\n".
                                     "Kindly note that you will be notified on your entrance to the pool. You can also share this program with friends and colleagues so they too can get a chance to be a part of this!\n\n".
