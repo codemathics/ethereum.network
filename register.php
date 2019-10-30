@@ -16,8 +16,8 @@
             $blog = 'https://medium.com/@ethnetworkng';
             $ethereum = 'ethereum.network';
             
-            $reply_email = 'info@ethereumdevdrive.com';
-            $email_from = 'clemzyport@gmail.com';
+            $reply_email = 'info@ethereum.network';
+            $email_from = 'no_reply@ethereum.network';
             $email_subject_registrar = "Thank you $User_name for registering with $ethereum!";
             $email_body_registrar = "We are happy to have you on board $User_name! .\n".
                                     "Kindly note that you will be notified on your entrance to the pool. You can also share this program with friends and colleagues so they too can get a chance to be a part of this!\n\n".
@@ -49,7 +49,7 @@
             $headers = "From: $email_from \r\n";
             $headers .= "Reply-To: $reply_email \r\n";            
             
-            $secretKey = "";
+            $secretKey = "6Lel7roUAAAAAMSJKUa46f0yaowxUmYe4xetLayI";
             $responseKey = $_POST['g-recaptcha-response'];
             $UserIP = $_SERVER['REMOTE_ADDR'];
             $url = "https://www.google.com/recaptcha/api/siteverify?secret=$secretKey&response=$responseKey&remoteip=$UserIP";
